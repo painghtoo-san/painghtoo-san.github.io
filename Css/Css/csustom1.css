@@ -1,0 +1,122 @@
+/* universal selector */
+/* *{
+    color: red;
+    text-align: center;
+} */
+
+/* tag selector/element selector */
+h1{
+    color: green;
+    text-align: center;
+}
+
+a[title="google"]{
+    color: blue;
+}
+
+/* Id Selector*/
+
+#idselector{
+    color: red;
+    text-indent: 50px;
+    line-height: 30px;
+    word-spacing: 40px;
+    letter-spacing: 10px;
+    text-transform: uppercase;
+}
+
+.classselector{
+    color: green;
+    text-transform: capitalize;
+    font-size: 24px;
+}
+
+/* Desc selector*/
+
+#desc a{
+    color: red;
+}
+
+/* Child selector */
+
+#Child > a{
+    color: red;
+}
+
+a:active{
+    color: green;
+}
+
+a:visited{
+    color: brown;
+}
+
+/* Target */
+
+p:target{
+    color: red;
+    text-transform: uppercase;
+    word-spacing: 20px;
+    line-height: 15px;
+}
+
+#myData{
+    width: 40%;
+    margin: auto;
+}
+
+input[type=text]{
+    width: 100%;
+    height: 35px;
+    
+}
+
+input[type="text"]:focus{
+    background-color: black;
+    word-spacing: normal;
+    color: white;
+}
+
+input[type="radio"]:checked + label{
+    color: red;
+    font-style: italic;
+}
+
+input[type="checkbox"]:enabled + label{
+color: green;
+}
+
+input[type="checkbox"]:checked + label{
+    color: red;
+    font-style: italic;
+}
+
+input[type=checkbox]:disabled{
+color: gray;
+
+}
+
+#fName:read-only{
+    background-color: green;
+    color: white;
+}
+
+/* empty */
+
+div:empty{
+    height: 20px;
+    background-color: green
+    ;
+}
+
+ul li:first-child{
+    background-color: red;
+}
+
+ul li:nth-child(3){
+    background-color: green;
+}
+.marginOne{
+    margin: ;
+}
+
